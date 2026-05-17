@@ -53,7 +53,6 @@ body {
   font-size: x-large;
 }
 
-
 #menu-item {
   color: rgba(255, 255, 255, 0.5);
   margin-top: 2vh;
@@ -110,4 +109,18 @@ body {
 #lang-toggle:hover {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.75);
+}
+
+#ble-test {
+  position: absolute;
+  background-color: rgba(0, 110, 95, 0);
+  border-radius: 5px;
+  width: 50vw;
+  height: 50vh;
+  left: 25vw;
+  top: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

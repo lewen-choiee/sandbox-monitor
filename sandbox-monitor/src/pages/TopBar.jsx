@@ -1,8 +1,6 @@
 import { translations } from './translations.js';
 import { useState } from "react";
 
-
-
 function Popup({ isVisible, lang }) {
     const t = translations[lang];
     if (!isVisible)
